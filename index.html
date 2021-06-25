@@ -11,16 +11,18 @@
 <body>
     <div class="container">
         <h1 class="title">Color Lighten/Darken</h1>
+        
+        
         <label for="hex">Color(Hex)</label>
-        <input type="text" name="hex" id="hexInput" placeholder="#000000"/>
-        <label for="slider" id="slider">0%</label>
+        <input type="text" name="hex" id="hexInput" placeholder="#000000" value="#c6d5ac"/>
+        
+        <label for="sliderText" id="sliderText">0%</label>
         <input type="range" min="0" max="100" value="0" class="slider" id="slider" name="slider"></input>
         <p>Input Color</p>
         <div class="box" id="inputColor"></div>
-        <p>Altered Color</p>
+        <p id='alteredColorText'>Altered Color</p>
         <div class="box" id="alteredColor"></div>
-        <script src="/index.js"></script>
     </div>
-    
+    <script src="/index.js"></script>
 </body>
 </html>
